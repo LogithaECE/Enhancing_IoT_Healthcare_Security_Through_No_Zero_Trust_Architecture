@@ -51,11 +51,15 @@ This project introduces an **NZTA-inspired architecture**, ensuring that:
 ### Connection Setup:
 <img width="50%"  alt="Image" src="https://github.com/user-attachments/assets/b9aa6071-7dfc-4836-bb61-6fe5953799b9" />
 
-3. Replace Wi-Fi credentials and API key placeholders with your actual details:
+3. Update these variables in the code:
    ```cpp
-   const char* ssid = "Your_WiFi_SSID";
-   const char* password = "Your_WiFi_Password";
-   const char* apiKey = "Your_ThingSpeak_API_Key";
+   const char* ssid = "YOUR_WIFI_SSID";
+   const char* password = "YOUR_WIFI_PASSWORD";
+   const char* mqttClientID = "YOUR_MQTT_CLIENT_ID";
+   const char* mqttUser = "YOUR_MQTT_USERNAME";
+   const char* mqttPassword = "YOUR_MQTT_PASSWORD";
+   const char* topicHeartRate = "YOUR_TOPIC_FOR_HEART_RATE";
+   const char* topicSpO2 = "YOUR_TOPIC_FOR_SPO2";
 
 ### Web Interface:
 <img width="100%" alt="Image" src="https://github.com/user-attachments/assets/4a22a979-7f1f-4c52-a7cf-fb2d4b4aef60" />
