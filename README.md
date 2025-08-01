@@ -36,6 +36,9 @@ This project introduces an **NZTA-inspired architecture**, ensuring that:
 • Embedded C / Arduino Sketch  
 • Optional: MQTT protocol with TLS (future integration)
 
+### Workflow
+<img width="205" height="371" alt="Image" src="https://github.com/user-attachments/assets/752fad2b-8878-4a94-b524-c15046bdc0c5" />
+
 ## Setup Instructions
 
 1. Connect the heartbeat sensor to NodeMCU:
@@ -45,11 +48,17 @@ This project introduces an **NZTA-inspired architecture**, ensuring that:
 
 2. Flash the provided Arduino sketch via Arduino IDE.
 
+### Connection Setup:
+<img width="50%"  alt="Image" src="https://github.com/user-attachments/assets/b9aa6071-7dfc-4836-bb61-6fe5953799b9" />
+
 3. Replace Wi-Fi credentials and API key placeholders with your actual details:
    ```cpp
    const char* ssid = "Your_WiFi_SSID";
    const char* password = "Your_WiFi_Password";
    const char* apiKey = "Your_ThingSpeak_API_Key";
+
+### Web Interface:
+<img width="100%" alt="Image" src="https://github.com/user-attachments/assets/4a22a979-7f1f-4c52-a7cf-fb2d4b4aef60" />
 
 
 
